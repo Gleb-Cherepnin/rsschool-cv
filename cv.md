@@ -20,6 +20,7 @@ I'm studying at The Rolling Scopes School.  Learning javaScript
 
 # My projects
 - [Chess](https://quiet-tarsier-e6fe15.netlify.app)
+- [Tic Tac Toe](https://papaya-dieffenbachia-8b553a.netlify.app)
 
 
 
