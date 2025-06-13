@@ -19,7 +19,7 @@ I'm studying at The Rolling Scopes School.  Learning javaScript
 
 
 # My projects
-
+- [Chess](https://quiet-tarsier-e6fe15.netlify.app)
 
 
 
