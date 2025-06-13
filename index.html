@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;600&display=swap" rel="stylesheet">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io (1)/favicon-16x16.png">
+<link rel="manifest" href="img/favicon_io (1)/site.webmanifest">
+<link rel="shortcut icon" href="img/favicon_io (1)/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="photo-block">
+    <img src="img/foto1.png" alt="Основное фото" class="main-photo">
+    <img src="img/My foto.png" alt="Верхнее фото" class="overlay-photo">
+    <nav class="menu">
+  <a href="#about">Обо мне</a>
+  <a href="#skills">Навыки</a>
+  <a href="#languages">Языки</a>
+</nav>
+
+<div class="name-block">
+  <h1>Глеб Черепнин</h1>
+  <p>frontend разработчик</p>
+</div>
+
+
+<div class="social-icons">
+  <a href="https://wa.me/+77024438722" target="_blank" aria-label="WhatsApp">
+    <img src="img/WhatsApp.png" alt="WhatsApp">
+  </a>
+  <a href="https://t.me/Buster_Skruggs" target="_blank" aria-label="Telegram">
+    <img src="img/Telegram.png" alt="Telegram">
+  </a>
+  <a href="https://github.com/Gleb-Cherepnin" target="_blank" aria-label="GitHub">
+    <img src="img/github.png" alt="GitHub">
+  </a>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="about-block" id="about">
+  <h2>Обо мне</h2>
+  <div class="about-text">
+    <p>Я начинающий фронтенд-разработчик, увлечённый созданием современных и удобных интерфейсов.</p>
+    <p>Уверенно работаю с HTML, CSS, JavaScript и продолжаю развиваться в TypeScript и React.</p>
+    <p>Люблю учиться новому, решать задачи и видеть результат своей работы на экране.</p>
+    <p>Готов работать в команде и принимать вызовы, чтобы расти как специалист.</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="skills-block"  id="skills">
+  
+  <div class="skills-content" >
+    <h2>Навыки</h2>
+    <div class="skills-icons">
+      <img src="img/Html.png" alt="Skill 1">
+      <img src="img/css.png" alt="Skill 2">
+      <img src="img/saas.png" alt="Skill 3">
+      <img src="img/git.png" alt="Skill 4">
+      <img src="img/less.png" alt="Skill 5">
+      <img src="img/docker.png" alt="Skill 6">
+      <img src="img/figma.png" alt="Skill 7">
+      <img src="img/MongoDB.png" alt="Skill 8">
+      <img src="img/json.png" alt="Skill 9">
+      <img src="img/bem.png" alt="Skill 10">
+      <img src="img/stylus.png" alt="Skill 11">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="languages-block" id="languages">
+  <div class="languages-content">
+    <h2>Языки</h2>
+
+    <div class="language-row">
+      <span class="lang-label">Русский</span>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <div class="language-row">
+      <span class="lang-label">Английский</span>
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot gray"></span>
+        <span class="dot gray"></span>
+        <span class="dot gray"></span>
+        <span class="dot gray"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact-block">
+<div class="contact-info">
+  <a class="contact-item" href="https://wa.me/77024438722" target="_blank">
+    <img src="img/WhatsApp.png" alt="WhatsApp">
+    <span>+7 (702) 443-87-22</span>
+  </a>
+  
+  <a class="contact-item" href="https://t.me/Buster_Skruggs" target="_blank">
+    <img src="img/Telegram.png" alt="Telegram">
+    <span>Buster_Skruggs</span>
+  </a>
+  
+  <a class="contact-item" href="https://github.com/Gleb-Cherepnin" target="_blank">
+    <img src="img/github.png" alt="GitHub">
+    <span>Gleb-Cherepnin</span>
+  </a>
+</div>
+
+  <div class="contact-logo">
+    <img src="img/RS-removebg-preview.png" alt="Your Logo">
+  </div>
+</section>
+
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+        history.pushState(null, null, ' ');
+      }
+    });
+  });
+</script>
+</body>
+</html>
