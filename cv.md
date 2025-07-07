@@ -22,7 +22,6 @@ I'm studying at The Rolling Scopes School.  Learning javaScript
 
 - [Chess](https://quiet-tarsier-e6fe15.netlify.app)
 - [Tic Tac Toe](https://papaya-dieffenbachia-8b553a.netlify.app)
-- [2048](https://glittering-praline-78d68d.netlify.app)
 
 
 
