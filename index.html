@@ -3,35 +3,163 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cherepnin Gleb - Frontend Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;600&display=swap" rel="stylesheet">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io_1/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io_1/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io_1/favicon-16x16.png">
+<link rel="manifest" href="img/favicon_io_1/site.webmanifest">
+<link rel="shortcut icon" href="img/favicon_io_1/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>Cherepnin Gleb</h1>
-  <h2>Frontend Developer</h2>
-  <p>I 🖤 Frontend.</p>
-  <p>Hello! I'm a frontend developer, and I love it!</p>
-  <p>I'm studying at The Rolling Scopes School. Learning JavaScript.</p>
-
-  <h2>My Skills</h2>
-  <div class="skills">
-    <img src="https://user-images.githubusercontent.com/60064512/224487706-10850994-3a0f-419e-9a48-013107a1aac5.png" alt="HTML">
-    <img src="https://user-images.githubusercontent.com/60064512/224487709-2a638c09-e758-4ee0-8a33-149bf7cb3562.png" alt="CSS">
-    <img src="https://user-images.githubusercontent.com/60064512/224487714-c46c1ee9-2908-4be6-9a92-4cbfce43583a.png" alt="MongoDB Example">
-    <img src="https://user-images.githubusercontent.com/60064512/224487717-ba1f0a03-27ff-4456-bd51-8b6178b32671.png" alt="SASS">
-    <img src="https://user-images.githubusercontent.com/60064512/224487715-5ab0ad8b-a7a8-403c-83e9-740ef3ee4b52.png" alt="MongoDB Code">
-    <img src="https://user-images.githubusercontent.com/60064512/224487722-133474de-ee6d-4444-bb1f-c66796fefacf.png" alt="Docker">
-    <img src="https://user-images.githubusercontent.com/60064512/224487724-7362c6ee-12c1-4976-8138-398808bd957a.png" alt="Figma">
-    <img src="https://user-images.githubusercontent.com/60064512/224487719-7e7f7115-33cf-4db6-840e-bf306d6ab27e.png" alt="Mongo">
-    <img src="https://user-images.githubusercontent.com/60064512/224487725-fe8264c6-25a4-49ea-bf49-ed57b4e9f71e.png" alt="Mongo Sample">
-    <img src="https://user-images.githubusercontent.com/60064512/224487726-cdab286a-fbc2-49cb-8b82-f1eafa0a5063.png" alt="Footer Sample">
-    <img src="https://user-images.githubusercontent.com/60064512/224487727-673c2942-ed2d-41a5-b6bc-66330c1ba338.png" alt="Stylus">
-  </div>
-
-  <h2>My Projects</h2>
-  <div class="projects">
-    <a href="https://quiet-tarsier-e6fe15.netlify.app" target="_blank">Chess</a>
-    <a href="https://papaya-dieffenbachia-8b553a.netlify.app" target="_blank">Tic Tac Toe</a>
-  </div>
+  <header>
+    <div class="photo-block">
+      <div class="photo-content">
+        <nav class="menu">
+          <a href="#about">About me</a>
+          <a href="#skills">Skills</a>
+          <a href="#languages">Languages</a>
+        </nav>
+        <div class="name-block">
+          <h1>Gleb Cherepnin</h1>
+          <p>frontend developer</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://wa.me/77024438722" target="_blank" aria-label="WhatsApp">
+            <img src="img/WhatsApp.png" alt="WhatsApp">
+          </a>
+          <a href="https://t.me/Buster_Skruggs" target="_blank" aria-label="Telegram">
+            <img src="img/Telegram.png" alt="Telegram">
+          </a>
+          <a href="https://github.com/Gleb-Cherepnin" target="_blank" aria-label="GitHub">
+            <img src="img/github.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
+      <img src="img/My_foto.png" alt="Верхнее фото" class="overlay-photo">
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="about-block" id="about">
+        <h2>About me</h2>
+        <div class="about-text">
+          <p>I am a beginner front-end developer, passionate about creating modern and user-friendly interfaces.</p>
+          <p>I work confidently with HTML, CSS and continue to develop in TypeScript and JavaScript</p>
+          <p>I love learning new things, solving problems and seeing the results of my work on the screen.</p>
+          <p>Ready to work in a team and accept challenges to grow as a professional.</p>
+        </div>
+      </section>
+      <section class="skills-block" id="skills">
+        <div class="skills-content">
+          <h2>Skills</h2>
+          <div class="skills-icons">
+            <img src="img/Html.png" alt="Skill 1">
+            <img src="img/css.png" alt="Skill 2">
+            <img src="img/saas.png" alt="Skill 3">
+            <img src="img/git.png" alt="Skill 4">
+            <img src="img/less.png" alt="Skill 5">
+            <img src="img/docker.png" alt="Skill 6">
+            <img src="img/figma.png" alt="Skill 7">
+            <img src="img/MongoDB.png" alt="Skill 8">
+            <img src="img/json.png" alt="Skill 9">
+            <img src="img/bem.png" alt="Skill 10">
+            <img src="img/stylus.png" alt="Skill 11">
+          </div>
+          <h2>Example code</h2>
+          <div class="code-table">
+            <pre><code>// Simple JavaScript Function Example
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet('Gleb'));
+</code></pre>
+          </div>
+          <h2>My projects</h2>
+          <div class="projects-table">
+            <ol class="projects-list">
+              <li><a href="https://quiet-tarsier-e6fe15.netlify.app/" target="_blank"> (https://quiet-tarsier-e6fe15.netlify.app/)</a></li>
+              <li><a href="https://papaya-dieffenbachia-8b553a.netlify.app/" target="_blank"> (https://papaya-dieffenbachia-8b553a.netlify.app/)</a></li>
+              <li><a href="https://glittering-praline-78d68d.netlify.app/" target="_blank"> (https://glittering-praline-78d68d.netlify.app/)</a></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section class="languages-block" id="languages">
+        <div class="languages-content">
+          <h2>Languages</h2>
+          <div class="language-row">
+            <span class="lang-label">Russian</span>
+            <div class="dots">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+          <div class="language-row">
+            <span class="lang-label">English</span>
+            <div class="dots">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot gray"></span>
+              <span class="dot gray"></span>
+              <span class="dot gray"></span>
+              <span class="dot gray"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <section class="contact-block">
+        <h2>Contacts</h2>
+        <ul class="contact-info">
+          <li>
+            <a class="contact-item" href="https://wa.me/77024438722" target="_blank">
+              <img src="img/WhatsApp.png" alt="WhatsApp">
+              <span>+7 (702) 443-87-22</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-item" href="https://t.me/Buster_Skruggs" target="_blank">
+              <img src="img/Telegram.png" alt="Telegram">
+              <span>Buster_Skruggs</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-item" href="https://github.com/Gleb-Cherepnin" target="_blank">
+              <img src="img/github.png" alt="GitHub">
+              <span>Gleb-Cherepnin</span>
+            </a>
+          </li>
+        </ul>
+        <div class="contact-logo">
+          <a href="https://app.rs.school/" target="_blank">
+            <img src="img/RS-removebg-preview.png" alt="Your Logo">
+          </a>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+          history.pushState(null, null, ' ');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
